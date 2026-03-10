@@ -1,0 +1,21 @@
+# Ambientes Virtuais (Pasta pesada com DLLs)
+venv/
+.venv/
+env/
+
+# Dados (Arquivos CSV gerados pelo script)
+data/*.csv
+data/*.parquet
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs e arquivos temporários
+*.log
+.DS_Store

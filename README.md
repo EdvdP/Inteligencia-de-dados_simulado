@@ -40,10 +40,10 @@ Para garantir que o ambiente seja idêntico ao de produção, utilize o Docker:
 
 Bash
 # Construir a imagem
-docker build -t belmicro-ds-project .
+docker build -t empresa-ds-project .
 
 # Rodar o container
-docker run -p 8501:8501 belmicro-ds-project
+docker run -p 8501:8501 empresa-ds-project
 Melhores Práticas Aplicadas
 Modularização: Código separado por responsabilidades (Ingestão, Transformação, Modelagem).
 
